@@ -22,7 +22,7 @@
   {
     "op": "replace",
     "path": "/aiAnimations/yell/frames",
-    "value": "ApexAI:yell.<index>"
+    "value": "winterai:yell.<index>"
   },
   {
     "op": "replace",
@@ -32,12 +32,12 @@
   {
     "op": "replace",
     "path": "/aiAnimations/refuse/frames",
-    "value": "ApexAI:refuse.<index>"
+    "value": "winterai:refuse.<index>"
   },
   {
     "op": "replace",
     "path": "/aiAnimations/unique/frames",
-    "value": "ApexAI:unique.<index>"
+    "value": "winterai:unique.<index>"
   },
   {
     "op": "replace",
