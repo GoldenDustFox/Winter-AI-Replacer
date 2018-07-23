@@ -2,17 +2,17 @@
   {
     "op": "replace",
     "path": "/aiAnimations/idle/frames",
-    "value": "ApexAI:idle.<index>"
+    "value": "winterai:idle.<index>"
   },
   {
     "op": "replace",
     "path": "/aiAnimations/blink/frames",
-    "value": "ApexAI:blink.<index>"
+    "value": "winterai:blink.<index>"
   },
   {
     "op": "replace",
     "path": "/aiAnimations/talk/frames",
-    "value": "ApexAI:talk.<index>"
+    "value": "winterai:talk.<index>"
   },
   {
     "op": "replace",
