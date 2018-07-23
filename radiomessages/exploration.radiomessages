@@ -1,0 +1,41 @@
+{
+  "ancientgateway" : {
+    "text" : "Whoa... These ruins are all over the universe, but I can't help but be amazed by them...Oh! There seems to be an ancient teleporter here too..."
+  },
+
+  "techconsole" : {
+    "text" : "O-oh, a Tech Console! You can unlock and equip new Techs with it. It's quite useful!"
+  },
+
+  "biomeradiation" : {
+    "unique" : false,
+    "text" : "WARNING! RADIATION LEVELS ON THIS PLANET ARE EXTREMELY DANGEROUS!\nPleast, return for now so you don't die of radiation...",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+
+  "biomecold" : {
+    "unique" : false,
+    "text" : "WARNING! TEMPERATURE ON THIS PLANET IS DANGEROUSLY LOW!\nPlease, return for now so you don't die from the cold...",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+
+  "biomeheat" : {
+    "unique" : false,
+    "text" : "WARNING! THE TEMPERATURE ON THIS PLANET IS DANGEROUSLY HIGH!\nPlease, return for now so you don't die from the heat...",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+
+  "biomeairless" : {
+    "unique" : false,
+    "text" : "Y-you're suffocating! Please, return to the ship and return once you have a breathing EPP...",
+    "textSpeed" : 70
+  },
+
+  "erchiussickness" : {
+    "unique" : false,
+    "text" : "U-um... I believe there's something coming after you because of the Eruchius you hold.... Please, be cautious, alright?"
+  }
+}

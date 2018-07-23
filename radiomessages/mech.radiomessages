@@ -1,0 +1,95 @@
+{
+  "biomeradiation_mech" : {
+    "unique" : false,
+    "text" : "WARNING: Your mech isn't suitable for this environment!/n Using this mech as of right now will only put you in danger!!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+
+  "biomecold_mech" : {
+    "unique" : false,
+    "text" : "WARNING: Your mech isn't suitable for this environment!/n Using this mech as of right now will only put you in danger!!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+
+  "biomeheat_mech" : {
+    "unique" : false,
+    "text" : "WARNING: Your mech isn't suitable for this environment!/n Using this mech as of right now will only put you in danger!!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+
+  "lava_mech" : {
+    "unique" : false,
+    "text" : "DANGER! Your mech's temperature control systems are failing! Evacuate immediately, please!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+
+  "testdrive01" : {
+    "type" : "mission",
+    "text" : "Erm... There seems to be no gravity here. Thankfully, your mech is built for zero-gravity, so no worries about drifting.",
+    "textSpeed" : 70
+  },
+
+  "testdrive02" : {
+    "type" : "mission",
+    "text" : "Oh, there's a gun attached to the mech. It's proabbly a good idea to shoot the targets if you want to continue...",
+    "textSpeed" : 70
+  },
+
+  "testdrive03" : {
+    "type" : "mission",
+    "text" : "Oh, the mech can move in environments with gravity too, thankfully.",
+    "textSpeed" : 70
+  },
+
+  "testdrive04" : {
+    "type" : "mission",
+    "text" : "The ^#60b8ea;blue bar^white; is your energy reserve. Please make sure not to take damage, or it will drain more than it already is...",
+    "textSpeed" : 70
+  },
+
+  "testdrive05" : {
+    "type" : "mission",
+    "text" : "Oh dear, there's hostile things even in empty space... Thankfully, they drop batteries, so you can regain lost energy that way...",
+    "textSpeed" : 70
+  },
+
+  "testdrive06" : {
+    "type" : "mission",
+    "text" : "The mech is too large to continue through this area. ^#71f2f6;Press E to enter and exit the mech^white; - I advise that you proceed on foot.",
+    "textSpeed" : 70
+  },
+
+  "testdrive07" : {
+    "type" : "mission",
+    "text" : "^green;With that, the test course is finally over.^white;. It's odd that a mech like this was abandoned, though...",
+    "textSpeed" : 70
+  },
+
+  "testdrive08" : {
+    "type" : "mission",
+    "text" : "Please be careful, not even your mech will completely protect you from this environment...",
+    "textSpeed" : 70
+  },
+
+  "testdrive09" : {
+    "type" : "mission",
+    "text" : "The teleporter shows that ^green;you have completed Dr. Akaggy's advanced test course^white;... You should report back to her.",
+    "textSpeed" : 70
+  },
+
+  "spaceencounter01" : {
+    "type" : "generic",
+    "text" : "Odd... I can't recognize these bio-signatures... Please, exercise caution here...",
+    "textSpeed" : 70
+  },
+
+  "spaceencounter02" : {
+    "type" : "generic",
+    "text" : "A Terrene Protectorate Storage Facility... I didn't realize this place existed...",
+    "textSpeed" : 70
+  }
+}

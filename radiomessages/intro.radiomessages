@@ -1,0 +1,92 @@
+{
+  "protectorateExitBedPester" : {
+    "type" : "mission",
+    "text" : "Thank goodness, you finally woke up... B-but you're late for your gradutation! ^#71f2f6;Press A or D to get out of bed, but quickly, please!^white;."
+  },
+
+  "protectorateDormRoomTutorial" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "To interact with a nearby person, door, or other object, you should ^#71f2f6;hover over it with your cursor and press E^white;, once you're awake enough..."
+  },
+
+  "protectorateDormRoomPester" : {
+    "type" : "mission",
+    "text" : "Remember, you can open a door by ^#71f2f6;hovering over it with your cursor and pressing E^white;, alright? Hopefully you can get there in time..."
+  },
+
+  "protectorateLoungeTutorial" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "Y-your uniform's just in here. Just make you you have it, th-then let's go!"
+  },
+
+  "protectorateStage5" : {
+    "type" : "mission",
+    "text" : "Oh Arceus... H-hurry, you got to get out of here! ^#71f2f6;Please take the Matter Manipulator^white;, then run!"
+  },
+
+  "protectorateCollapsedGalleryNoMM" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "L-let's go, please take the Matter Manipulator and escape!"
+  },
+
+  "protectorateCollapsedGallery" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "The ceiling's collapsed... You'll have to move that dirt. ^#71f2f6;Press the R key to equip it^white;, then don't hesitate to dig as soon as possible!"
+  },
+
+  "protectorateCollapsedGalleryPester" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "P-please, hurry and dig through the dirt... ^#71f2f6;Press the R key to equip it, then let's go!^white;."
+  },
+
+  "protectorateFloodedDoor" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "Arceus, the room is flooded... Though those platforms should get you around... - ^#71f2f6;use spacebar to jump^white; up to higher platforms."
+  },
+
+  "protectorateRooftop" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "S-so much destruction... W-we need to leave, promptly... You'll die too if you don't leave..."
+  },
+
+  "protectorateDuct" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "^#71f2f6;Holding S to crouch then tapping spacebar^white; should get you down..."
+  },
+
+  "protectorateDuctPester" : {
+    "type" : "mission",
+    "text" : "Earth will be gone soon.... Please hurry and get down the platform by ^#71f2f6;holding S to crouch, then tapping spacebar^white;..."
+  },
+
+  "protectorateGetWeapon" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "Th-there should be something to defend yourself with in there!"
+  },
+
+  "protectorateWeaponPester" : {
+    "type" : "mission",
+    "text" : "You should be able to equip the weapon by ^#71f2f6;placing it in one of the action bar slots^white; at the top of the screen, then ^#71f2f6;pressing the corresponding number key to equip^white; or unequip it..."
+  },
+
+  "protectorateTentacleBarrier" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "Whatever that is won't move... That sword should at least move it out of the way..."
+  },
+
+  "protectorateShipPlatform" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "The ship's ready to go, c-c'mon!"
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/guiConfig/windowtitle/title",
+    "value": "W.I.N.T.E.R."
+  },
+  {
+    "op": "replace",
+    "path": "/guiConfig/windowtitle/subtitle",
+    "value": "Wireless Networking Electronic Rationale"
+  }
+]

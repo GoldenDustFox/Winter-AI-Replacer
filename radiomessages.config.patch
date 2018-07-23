@@ -1,0 +1,12 @@
+[
+	{
+		"op": "replace",
+		"path": "/messageDefaults/senderName",
+		"value": "Winter"
+	},
+	{
+		"op": "replace",
+		"path": "/messageDefaults/portraitImage",
+		"value": "/ai/portraits/winterai.png:talk.<frame>"
+	}
+]

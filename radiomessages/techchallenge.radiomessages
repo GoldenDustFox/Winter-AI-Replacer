@@ -1,0 +1,41 @@
+{
+  "techchallenge_doublejump1" : {
+    "type" : "mission",
+    "text" : "To use the ^orange;Pulse Jump Tech^white; ^#71f2f6;press spacebar while in the air^white;. This tech should be helpful for higher ledges..."
+  },
+
+  "techchallenge_doublejump2" : {
+    "type" : "mission",
+    "text" : "Y-you can also ^#71f2f6;use ^orange;Pulse Jump^white; in midair..."
+  },
+
+  "techchallenge_dash1" : {
+    "type" : "mission",
+    "text" : "This course seems to be built around ^orange;Dash Tech^white; you have been given... Just ^#71f2f6;double tap A or D to quickly dash left or right^white; to use it."
+  },
+
+  "techchallenge_dash2" : {
+    "type" : "mission",
+    "text" : "Seems like these doors shut relatively quickly... An easy way to get past this is to ^#71f2f6;position yourself close to the door^white; before ^#71f2f6;operating the switch and dashing through^white;."
+  },
+
+  "techchallenge_dash3" : {
+    "type" : "mission",
+    "text" : "The timing seems very limited... Thank goodness for the Tech, at least."
+  },
+
+  "techchallenge_dash4" : {
+    "type" : "mission",
+    "text" : "^orange;Cryogenic blasters^white;! They'll slow you down, so please take caution to avoid them..."
+  },
+
+  "techchallenge_morphball1" : {
+    "type" : "mission",
+    "text" : "^#71f2f6;Pressing F will activate the ^orange;Distortion Sphere Tech^white;. It doesn't seem too comfortable, though..."
+  },
+
+  "techchallenge_morphball2" : {
+    "type" : "mission",
+    "text" : "Jumping then ^#71f2f6;activating the ^orange;Distortion Sphere ^#71f2f6;mid-jump^white; should work here..."
+  }
+}

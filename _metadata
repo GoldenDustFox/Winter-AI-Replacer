@@ -1,0 +1,10 @@
+{
+  "author" : "GoldenDustFox / PKNerd",
+  "description" : "Just a simple thing me and Catfox did.\nHe wrote all the dialog and I put it into the mod, along with the Winter sprite sheets.\n\n[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1447241891]Frackin' Races Addon[/url][/b]\n[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1278487518]Scripted SAIL Addon[/url][/b]\n\nGoes without saying, but is incompatible with mods such as Scripted SAIL, AVIAN, etc.\nIf you want to suggest races to add in, feel free to send your suggestion to the Race Suggestion discussion.\n\n[h1]Races Supported: (as of 1.2.3)[/h1]\n[b]Vanilla[/b]\n- Human\n- Apex\n- Avian\n- Glitch\n- Hylotl\n- Novakid\n\n[b]Modded[/b]\n- GalaxyFoxes (Eevee, Elysian, Fennix)\n- Avali\n- Draconis\n- Espeon\n- Familiars\n- Felin\n- Inkling\n- Kirhos\n- Lucario\n- Neko\n- Radien\n- Shadow\n- Thelusion\n- Woggles\n\n[spoiler]I'm just throwing things at the wall to see what works at this point.[/spoiler]",
+  "friendlyName" : "\"Wireless Networking Electronic Rationale\" SAIL Replacer",
+  "link" : "steam://url/CommunityFilePage/1279324049",
+  "name" : "WINTER SAIL Replacer",
+  "steamContentId" : "1279324049",
+  "tags" : "User Interface",
+  "version" : "v1.3"
+}

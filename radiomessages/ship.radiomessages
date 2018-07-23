@@ -1,0 +1,16 @@
+{
+  "activeCrewLimit" : {
+    "type" : "tutorial",
+    "text" : "Um... I'm sorry, but you can only bring two members at once... Someone will have to stay behind if you want to bring someone in particular.",
+    "unique" : false
+  },
+  "crewLimit" : {
+    "type" : "tutorial",
+    "text" : "There's not enough room for so many people, unfortunately.. The ship will need to be upgraded or someone will need to be dismissed...",
+    "unique" : false
+  },
+  "gainedCrewMember" : {
+    "type" : "tutorial",
+    "text" : "Congrats, you're first crew member! I registered them, so you can check their status anytime in the interface."
+  }
+}

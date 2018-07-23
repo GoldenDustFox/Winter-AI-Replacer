@@ -1,0 +1,115 @@
+{
+// on various food and starvation states
+
+  "full" : {
+    "type" : "tutorial",
+    "text" : "Good, I-I see you're eating well! That will help a lot."
+  },
+
+  "hungry" : {
+    "type" : "tutorial",
+    "text" : "Oh dear... When's the last time you ate? I recommend getting something to eat when you can..."
+  },
+
+  "starving" : {
+    "type" : "tutorial",
+    "text" : "Y-you're starving! Please eat as soon as possible!!!"
+  },
+
+// on picking up materials
+
+  "pickuplogblock" : {
+    "type" : "tutorial",
+    "text" : "O-oh, you got some wood. It likely goes against your nature, but I recommend getting as much wood as you need. Thank goodness you can plant saplings, at least..."
+  },
+
+// on picking up various tables
+
+  "pickupinventorstable" : {
+    "type" : "tutorial",
+    "text" : "G-great, an Inventor's Table! This will seriously help your survival..."
+  },
+
+// on picking up misc objects/items
+
+  "pickupseed" : {
+    "type" : "tutorial",
+    "text" : "Great, some seeds! Maybe with the help of a Foraging Table, you will be able to raise crops!"
+  },
+  "pickupcampfire" : {
+    "type" : "tutorial",
+    "text" : "O-oh, a fire! You can make food with it, but please don't hurt yourself!"
+  },
+  "pickupflag" : {
+    "type" : "tutorial",
+    "text" : "O-oh, the teleporter can let you warp back to this spot, as soon as you name the bookmark, that is..."
+  },
+  "pickupcoal" : {
+    "type" : "tutorial",
+    "text" : "G-great, some coal! The Crafting Menu should allow you to make them into torches to light your way."
+  },
+  "pickupore" : {
+    "type" : "tutorial",
+    "text" : "Oh, some ore! With a Furnace, this will surely be helpful."
+  },
+  "pickupcorefrag" : {
+    "type" : "tutorial",
+    "text" : "O-oh, one of the core fragments we need. There should be some more nearby if you found this one..."
+  },
+  "pickupplantfibre" : {
+    "type" : "tutorial",
+    "text" : "O-oh, we should be able to make things on the Spinning Wheel with this..."
+  },
+  "pickupdye" : {
+    "type" : "tutorial",
+    "text" : "O-oh, some dye! If you want to color some clothing, right-clicking the clothing after clicking the dye should do..."
+  },
+  "pickupepp" : {
+    "type" : "tutorial",
+    "text" : "A-awesome, an EPP! I won't have to worry about you dying as much, thank goodness..."
+  },
+  "pickupaugment" : {
+    "type" : "tutorial",
+    "text" : "Aaah, an augment too! Your EPP can equip them and they help so much..."
+  },
+  "pickupcollar" : {
+    "type" : "tutorial",
+    "text" : "A collar... They should add a benefit to a pet with a simple right-click, though... Ehe, Never mind..."
+  },
+  "pickupcapturepod" : {
+    "type" : "tutorial",
+    "text" : "Oh, this universe's version of a Pokeball! I-If you get a monster's health low enough, you can throw the ball to them to capture them. Just please carefully toss the ball to them and do not be too forceful..."
+  },
+  "pickupbow" : {
+    "type" : "tutorial",
+    "text" : "O-oh, it's a bow... They should help if you want a higher chance of monsters dropping some food or ingredients.."
+  },
+  "pickupmanipulatormodule" : {
+    "type" : "tutorial",
+    "text" : "N-nice, a Manipulator Module! With enough of these, the Matter Manipulator can be upgraded!"
+  },
+
+// on encountering certain things
+
+  "naturalcave1" : {
+    "type" : "tutorial",
+    "text" : "Um... I'm detecting a bunch of monsters in the cave, so I seriously recommend being prepared for anything..."
+  },
+
+  "naturalcave2" : {
+    "type" : "tutorial",
+    "text" : "If you don't want to go through the mine for fragments, maybe you'll have luck finding them near the core... D-don't actually fall in though!"
+  },
+
+  "challengedoor" : {
+    "type" : "tutorial",
+    "text" : "Oh dear, a challenge door... You can enter if you wish, but it may be difficult... I-I'll root for you, though!"
+  },
+
+// on unlocking ship capabilities
+
+  "fuel" : {
+    "type" : "tutorial",
+    "text" : "O-oh, you can get fuel from any moons, though please be careful, I've been hearing of something haunting anyone who holds Eruchius..."
+  }
+}

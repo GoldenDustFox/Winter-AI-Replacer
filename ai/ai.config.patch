@@ -1,0 +1,864 @@
+[
+  {
+    "op": "replace",
+    "path": "/aiAnimations/idle/frames",
+    "value": "ApexAI:idle.<index>"
+  },
+  {
+    "op": "replace",
+    "path": "/aiAnimations/blink/frames",
+    "value": "ApexAI:blink.<index>"
+  },
+  {
+    "op": "replace",
+    "path": "/aiAnimations/talk/frames",
+    "value": "ApexAI:talk.<index>"
+  },
+  {
+    "op": "replace",
+    "path": "/aiAnimations/talk/animationCycle",
+    "value": 0.4
+  },
+  {
+    "op": "replace",
+    "path": "/aiAnimations/yell/frames",
+    "value": "ApexAI:yell.<index>"
+  },
+  {
+    "op": "replace",
+    "path": "/aiAnimations/yell/animationCycle",
+    "value": 0.4
+  },
+  {
+    "op": "replace",
+    "path": "/aiAnimations/refuse/frames",
+    "value": "ApexAI:refuse.<index>"
+  },
+  {
+    "op": "replace",
+    "path": "/aiAnimations/unique/frames",
+    "value": "ApexAI:unique.<index>"
+  },
+  {
+    "op": "replace",
+    "path": "/noCrewSpeech/text",
+    "value": "^#6f6f6f;$ crew\n^cyan;> O-oh, you're the only one registered on this ship.
+> Maybe another crew member would make your journey less lonely..."
+  },
+  {
+    "op": "replace",
+    "path": "/noMissionsSpeech/text",
+    "value": "^#6f6f6f;$ missions^cyan;> There aren't any missions available right now, sorry..."
+  },
+  {
+    "op": "replace",
+    "path": "/shipStatus/1/text",
+    "value": "^#6f6f6f;$ status^cyan;
+> Oh dear, the ship thrusters are offline...
+> Thankfully the teleportation system is still working correctly!
+> ^green;Still, the only planet you can access is the one below us..."
+  },
+  {
+    "op": "replace",
+    "path": "/shipStatus/2/text",
+    "value": "^#6f6f6f;$ status^cyan;
+> Ship thrusters seem alright.
+> The teleporter is doing fine..
+> ^green;Yay, we can access the whole solar system..!"
+  },
+  {
+    "op": "replace",
+    "path": "/shipStatus/3/text",
+    "value": "^#6f6f6f;$ status -f^cyan;
+> Ship thrusters are doing alright!
+> The FTL drive is working wonderfully!
+> The teleporter is doing good as well!
+> ^green;W-we can go anywhere we want!"
+  },
+  // Vanilla Races
+  {
+    "op": "replace",
+    "path": "/species/apex/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/apex/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/avian/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/avian/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/floran/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/floran/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/glitch/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/glitch/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/human/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/human/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/novakid/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/novakid/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/penguin/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/penguin/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/hylotl/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/hylotl/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+  // Modded Races
+ //AVALI
+  {
+    "op": "replace",
+    "path": "/species/avali/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/avali/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //DRAGON
+  {
+    "op": "replace",
+    "path": "/species/dragon/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/dragon/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //EEVEE
+  {
+    "op": "replace",
+    "path": "/species/eevee/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/eevee/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //ELYSIAN
+  {
+    "op": "replace",
+    "path": "/species/elysian/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/elysian/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //ESPEON
+  {
+    "op": "replace",
+    "path": "/species/espeon/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/espeon/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //FAMILIAR
+  {
+    "op": "replace",
+    "path": "/species/familiar/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/familiar/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //FELIN
+  {
+    "op": "replace",
+    "path": "/species/felin/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/felin/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //FENNIX
+  {
+    "op": "replace",
+    "path": "/species/fennix/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/fennix/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //FENNIXRACE
+  {
+    "op": "replace",
+    "path": "/species/fennixrace/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/fennixrace/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //ELYS
+  {
+    "op": "replace",
+    "path": "/species/elys/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/elys/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //INKLING
+  {
+    "op": "replace",
+    "path": "/species/inkling/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/inkling/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //KIRHOS
+  {
+    "op": "replace",
+    "path": "/species/kirhos/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/kirhos/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //LUCARIO
+  {
+    "op": "replace",
+    "path": "/species/lucario/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/lucario/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //NEKO
+  {
+    "op": "replace",
+    "path": "/species/neko/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/neko/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //NOVALI
+  {
+    "op": "replace",
+    "path": "/species/novali/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/novali/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //RADIEN
+  {
+    "op": "replace",
+    "path": "/species/radien/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/radien/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //SHADOW
+  {
+    "op": "replace",
+    "path": "/species/shadow/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/shadow/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //WOGGLE
+  {
+    "op": "replace",
+    "path": "/species/woggle/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/woggle/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //PEGLACI
+  {
+    "op": "replace",
+    "path": "/species/peglaci/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/peglaci/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //AEGI
+  {
+    "op": "replace",
+    "path": "/species/aegi/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/aegi/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //AVIKAN
+  {
+    "op": "replace",
+    "path": "/species/avikan/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/avikan/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //DRODEN
+  {
+    "op": "replace",
+    "path": "/species/droden/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/droden/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //TRINK
+  {
+    "op": "replace",
+    "path": "/species/trink/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/trink/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //ZOROARK
+  {
+    "op": "replace",
+    "path": "/species/zoroark/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/zoroark/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //VIERA
+  {
+    "op": "replace",
+    "path": "/species/viera/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/viera/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //SERGAL
+  {
+    "op": "replace",
+    "path": "/species/sergal/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/sergal/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //ORCANA
+  {
+    "op": "replace",
+    "path": "/species/orcana/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/orcana/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //MOOGLE
+  {
+    "op": "replace",
+    "path": "/species/moggle/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/moggle/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //LOMBAX_POINTED
+  {
+    "op": "replace",
+    "path": "/species/lombax_pointed/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/lombax_pointed/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //LOMBAX_STRIPED
+  {
+    "op": "replace",
+    "path": "/species/lombax_striped/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/lombax_striped/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //LAMIA
+  {
+    "op": "replace",
+    "path": "/species/lamia/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/lamia/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //NINGEN
+  {
+    "op": "replace",
+    "path": "/species/ningen/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/ningen/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //GARDEVAN
+  {
+    "op": "replace",
+    "path": "/species/gardevan/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/gardevan/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //GRECKAN
+  {
+    "op": "replace",
+    "path": "/species/greckan/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/greckan/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //KEMONO
+  {
+    "op": "replace",
+    "path": "/species/kemono/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/kemono/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //ELUNITE
+  {
+    "op": "replace",
+    "path": "/species/elunite/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/elunite/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //BUNNYKIN
+  {
+    "op": "replace",
+    "path": "/species/bunnykin/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/bunnykin/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //CALLISTAN
+  {
+    "op": "replace",
+    "path": "/species/callistan/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/callistan/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //ARGONIAN
+  {
+    "op": "replace",
+    "path": "/species/argonian/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/argonian/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //MAUSKIN
+  {
+    "op": "replace",
+    "path": "/species/mauskin/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/mauskin/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //ARACHNE
+  {
+    "op": "replace",
+    "path": "/species/arachne/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/arachne/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //KINEPTIC
+  {
+    "op": "replace",
+    "path": "/species/kineptic/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/kineptic/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //LASTREE
+  {
+    "op": "replace",
+    "path": "/species/lastree/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/lastree/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //INDIX
+  {
+    "op": "replace",
+    "path": "/species/indix/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/indix/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //GYRUSEN
+  {
+    "op": "replace",
+    "path": "/species/gyrusen/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/gyrusen/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //FUKIRHOS
+  {
+    "op": "replace",
+    "path": "/species/fukirhos/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/fukirhos/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //SKATH
+  {
+    "op": "replace",
+    "path": "/species/skath/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/skath/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //SLIMEPERSON
+  {
+    "op": "replace",
+    "path": "/species/slimeperson/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/slimeperson/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //TAUREN
+  {
+    "op": "replace",
+    "path": "/species/tauren/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/tauren/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //TIRASTROLLS
+  {
+    "op": "replace",
+    "path": "/species/tirastrolls/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/tirastrolls/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //VESPOID
+  {
+    "op": "replace",
+    "path": "/species/vespoid/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/vespoid/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //VULPES
+  {
+    "op": "replace",
+    "path": "/species/vulpes/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/vulpes/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //LYCEEN
+  {
+    "op": "replace",
+    "path": "/species/lyceen/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/lyceen/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //WASPHIVE
+  {
+    "op": "replace",
+    "path": "/species/wasphive/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/wasphive/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //WEBBER
+  {
+    "op": "replace",
+    "path": "/species/webber/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/webber/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //SKELEKIN
+  {
+    "op": "replace",
+    "path": "/species/skelekin/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/skelekin/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //SATURN
+  {
+    "op": "replace",
+    "path": "/species/saturn/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/saturn/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //SARASINOR
+  {
+    "op": "replace",
+    "path": "/species/sarasinor/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/sarasinor/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //PYGS
+  {
+    "op": "replace",
+    "path": "/species/pygs/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/pygs/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //PHOX
+  {
+    "op": "replace",
+    "path": "/species/phox/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/phox/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //NIGHTAR
+  {
+    "op": "replace",
+    "path": "/species/nightar/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/nightar/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //MUNARI
+  {
+    "op": "replace",
+    "path": "/species/munari/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/munari/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //MANTIZI
+  {
+    "op": "replace",
+    "path": "/species/mantizi/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/mantizi/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  },
+ //KAZDRA
+  {
+    "op": "replace",
+    "path": "/species/kazdra/aiFrames",
+    "value": "winterai.png"
+  },
+  {
+    "op": "replace",
+    "path": "/species/kazdra/portraitFrames",
+    "value": "portraits/winterportrait.png"
+  }
+]
